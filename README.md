@@ -1,6 +1,8 @@
 # Fantasy Combat Tournament
 
-Run a fantasy combat tournament between two teams based on the players/characters selected. One user sets up the two teams. The players battle in the order they are chosen for each team. If they win, they go to the end of the lineup (queue DS) and a percentage of their health is restored; otherwise, they get pushed onto the top of the losers' bracket (stack DS). The tournament finishes when one of the team does not have any more fighters to fight. As the tournament is played, it prints out the result of each battle, and at the end, the overall tournmanet. The user has the choice to see the losers. 
+Run a fantasy combat tournament between two teams based on the players/characters selected. Demonstrating polymorphism/inheritance with abstract parent class Character and child classes as well as implementations of a queue and stack to keep track of remaining players on each team and the losers. 
+
+One user sets up the two teams. The players battle in the order they are chosen for each team. If they win, they go to the end of the lineup (queue DS) and a percentage of their health is restored; otherwise, they get pushed onto the top of the losers' bracket (stack DS). The tournament finishes when one of the team does not have any more fighters to fight. As the tournament is played, it prints out the result of each battle, and at the end, the overall tournament result. The user has the choice to see the losers. 
 
 ![](UML.png?)
 
