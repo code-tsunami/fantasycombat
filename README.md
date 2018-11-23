@@ -10,7 +10,7 @@ Run a fantasy combat tournament between two teams based on the players/character
 | Medusa		| 2 6-sided die | 1 6-sided die | 3				| 8					| Rolling a 12 with their attack die, the opponent instantly gets turned into stone and Medusa wins!  |
 | Harry Potter	| 2 6-sided die | 2 6-sided die | 0				| 10 or 20			| Immediately recovers and his total strength becomes 20 after first loss. If he were to loses again, then he's out for good.  |
 
-![](UML.png)
+![](UML.png?)
 
 ## Getting Started
 
