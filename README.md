@@ -10,7 +10,7 @@ Run a fantasy combat tournament between two teams based on the players/character
 | Barbarian		| 2 6-sided die	| 2 6-sided die | 0				| 12				| N/A  				|
 | Blue Men		| 2 10-sided die| 3 6-sided die | 3				| 12				| Actually a swarm of small individuals. For every 4 points of damage, they lose one defense die. |
 | Medusa		| 2 6-sided die | 1 6-sided die | 3				| 8					| Rolling a 12 with their attack die, the opponent instantly gets turned into stone and Medusa wins!  |
-| Harry Potter	| 2 6-sided die | 2 6-sided die | 0				| 10 or 20			| Immediately recovers and his total strength becomes 20 after first loss. If he were to loses again, then he's out for good.  |
+| Harry Potter	| 2 6-sided die | 2 6-sided die | 0				| 10 or 20			| Immediately recovers and total strength becomes 20 after first loss. If another loss occurs, then HP's out for good.  |
 
 ## Getting Started
 
