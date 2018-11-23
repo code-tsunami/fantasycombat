@@ -10,13 +10,13 @@ CXXFLAGS += -pedantic-errors # be sure to strictly enforce standard
 LDFLAGS = -lboost_date_time # to be utilized at a later date
 # add --track-origins=yes to troubleshoot uninitialized values or conditional jumps
 VGFLAGS = --tool=memcheck --leak-check=full #--show-leak-kinds=all
-EXEC = tournament
-CWD:=$(shell pwd)
+EXEC = tournament # name  of executable
 
+# search recursively in the cwd and any subdirectory for .hpp files
 HEADERS:=$(shell find . -maxdepth 2 -name "*.hpp")
-SRCS:=$(shell find . -maxdepth 2 -name "*.cpp") 
-
-# for all the source (.cpp) files found, generate .o filenames and assign to OBJS
+# search recursively in the cwd and any subdirectory for .cpp files
+SRCS:=$(shell find . -maxdepth 2 -name "*.cpp")
+# for all .cpp filenames swap the file ext. out for .o  
 OBJS = $(SRCS:.cpp=.o)
 
 # target: dependencies
