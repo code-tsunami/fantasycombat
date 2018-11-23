@@ -31,7 +31,7 @@ make
 
 **Run**:
 ```sh
-smallsh
+fantasycombat
 ```
 
 ## Author
